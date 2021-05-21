@@ -1,4 +1,4 @@
-<!DOCTYPE .HTML>
+<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -10,13 +10,16 @@
             box-sizing: border-box;
         }
        @media screen and (max-width:1000px) {
-         img, .form, nav,article{
+        .form, nav,article{
                width: 100%;
               float:none;
            }
            .form{
                height:75%;
            
+       }
+       .clearfix{
+           flex-direction: column;
        }
         }
         body {
@@ -27,7 +30,7 @@
 
         .form {
             float: left;
-            height: 200%;
+            height: 100%;
             border: 5px black;
             background-color: rgb(76, 71, 71);
             margin: 5px;
@@ -49,6 +52,7 @@
 
         .clearfix {
             overflow: auto;
+            display: flex;
         }
 
         .art {
@@ -126,7 +130,7 @@
             <div class="arti">
 
 
-                <img src="git.jpg" alt="sorry,can't find image" style="width: 250px;;height: 200px;">
+                <img src="git.jpg" alt="sorry,can't find image" style="width: 245px;;height: 200px;">
                 <h1>Hi,i'm esraa said</h1>
                 <h2>an engineering student.</h2>
 
@@ -173,16 +177,16 @@
             <div class="rr box">
                 
 
-                <img src="web.png" width="250" height="100">
+                <img src="web.png" width="245" height="100">
                 <div class="text">Web Development</div>
 
             </div>
             <div class=" rr box">
-                <img src="vv.jpg" width="250" height="100">
+                <img src="vv.jpg" width="245" height="100">
                 <div class="text">Video Editing</div>
             </div>
             <div class="rr box">
-                <img src="gd.jpg" width="250" height="100">
+                <img src="gd.jpg" width="245" height="100">
                 <div class="text">Graphic Design</div>
             </div>
 
